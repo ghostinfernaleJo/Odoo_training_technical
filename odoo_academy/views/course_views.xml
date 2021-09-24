@@ -17,7 +17,6 @@
                                 <field name="base_price"/>
                                 <field name="additional_fee"/>
                                 <field name="total_price" force_save="1"/>
-                                
                             </group>
                         </group>
                         <notebook>
@@ -34,7 +33,7 @@
         </record>
         
         <record model="ir.ui.view" id="course_view_list">
-             <field name="name">academy.course.form</field>
+             <field name="name">academy.course.list</field>
              <field name="model">academy.course</field>
              <field name="arch" type="xml">
                   <tree string="Course List">
@@ -46,7 +45,7 @@
         </record>
         
         <record model="ir.ui.view" id="course_view_search">
-             <field name="name">academy.course.form</field>
+             <field name="name">academy.course.search</field>
              <field name="model">academy.course</field>
              <field name="arch" type="xml">
                   <search string="Course List">
