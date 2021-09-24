@@ -27,8 +27,8 @@
         'security/ir.model.access.csv',
         'views/course_views.xml',
         'views/session_views.xml',
-        
-        
+        'views/sale_views_inherit.xml',
+        'views/product_views_inhert.xml',
         
     ],
     
